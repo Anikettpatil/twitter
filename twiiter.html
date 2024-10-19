@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="twitter.css">
+</head>
+<body>
+    <h1>Twitter Clone</h1>
+
+    <!-- Blockchain Account and Balance Display -->
+    <div id="account">Account: Loading...</div>
+    <div id="balance">Balance: Loading...</div>
+
+    <!-- Tweet Input Box -->
+    <div class="tweet-box">
+        <textarea id="tweetInput" placeholder="What's happening?"></textarea>
+        <button id="postTweetButton">Post Tweet</button>
+    </div>
+
+    <!-- Feed to Display Tweets -->
+    <div id="feed">
+        <h3>Feed</h3>
+        <div id="tweetsContainer"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.5.2/web3.min.js"></script>
+    <script src="twitter.js"></script>
+</body>
+</html>
